@@ -1,0 +1,6 @@
+0 = décors
+2 = objets
+4 = attaques de monstres
+6 = monstres
+8 = attaques du joueur
+10 = joueur

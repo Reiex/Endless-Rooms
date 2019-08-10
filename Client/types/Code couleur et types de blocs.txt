@@ -1,0 +1,32 @@
+Blocs fixes:
+
+255, 255, 255 = Vide = 0
+0, 0, 0 = Mur = 1
+50, 50, 50 = Spawn
+100, 100, 100 = Porte bas = 2
+101, 101, 101 = Porte haut = 3
+102, 102, 102 = Porte verouillée bas = 9
+103, 103, 103 = Porte verouillée haut = 10
+150, 150, 150 = Pics-bas = 4
+151, 151, 151 = Pics-haut = 5
+152, 152, 152 = Pics-gauche = 6
+153, 153, 153 = Pics-droite = 7
+175, 175, 175 = Lance-fleches-bas = 14
+176, 176, 176 = Lance-fleches-haut = 15
+177, 177, 177 = Lance-fleches-gauche = 16
+178, 178, 178 = Lance-fleches-droite = 17
+200, 200, 200 = Brasier éteint = 11
+225, 225, 225 = Echelle = 13
+125, 125, 125 = Bumper = 18
+
+Blocs animes:
+
+255, 0, 0 = lave = 8
+255, 50, 50 = brasier allumé = 12
+
+Monstres:
+
+255, 255, {type != 255} = Monstre de type {type}
+
+Autres:
+255, {ID != 255}, 255 = Fenetre tutoriel

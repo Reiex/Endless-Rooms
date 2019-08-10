@@ -1,0 +1,37 @@
+TYPES:
+	- "normal": Tout est dans le nom, englobe aussi les menus défilants
+	- "input": Entrée de texte unique
+	- "saisies": Champs de saisies selectionnables
+	- "textes": Textes affichés sans interaction avec l'utilisateur
+FLAGS:
+	- "vertical": Les boutons du menu, s'ils sont plusieurs, sont alignés verticalement, valeur par défaut
+	- "horizontal": Les boutons du menu, s'ils sont plusieurs, sont alignés horizontalement
+	- "selection": Cliquer sur un bouton ne fera pas quitter le menu, mais la valeur de ce bouton sera renvoyée dans sortie["selection"], dans une liste dont l'index est le numero du menu par rapports aux autres menus selectionnables
+	- "defilant": Permet de faire defiler les boutons avec la molette.
+
+Menu normal:
+	menu = Menu(boutons, x, y, w, h, "normal", flags, fond)
+	
+	boutons: liste/tuple de string/(sf.Texture normale et passage)
+	fond: sf.Sprite - /!\ Le fond n'est pas affiché s'il s'agit d'une menu défilant
+
+Input:
+	menu = Menu((before_input, after_input, maxlength=15, value=""), x, y, w, h, "input", flags,  fond)
+	
+	before_input: chaine de caractères ou sf.Texture
+	after_input: chaine de caractères ou sf.Texture
+	fond: sf.Sprite
+
+Saisies:
+	menu = Menu(args, x, y, w, h, "saisies", flags, fond)
+	
+	args: tuple/liste d'arguments pour chaque area à créer de forme: (titre, curseur, maxlength=15, value="")
+		titre: chaine de caractères
+		curseur: chaine de caractères
+	fond: sf.Sprite
+
+Textes:
+	menu = Menu(textes, x, y, w, h, "textes", flags, fond)
+	
+	textes: liste/tuple de string
+	fond: sf.Sprite

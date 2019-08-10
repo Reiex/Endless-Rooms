@@ -1,0 +1,2 @@
+0 = Attaques de base du joueur
+1 = Fleches du lance-fleches

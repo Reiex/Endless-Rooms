@@ -1,0 +1,28 @@
+Bienvenue dans le tutoriel d'Endless-rooms.
+Pour vous déplacer,
+appuyez sur les touches "Q" ou "D"
+.Pour sauter, appuyez sur la touche "Espace".
+Vous pouvez sauter et avancer en même temps.
+.Vous pouvez grimpez à une echelle en appuyant sur
+la touche "Espace" lorsque vous êtes devant.
+.Les pics et la lave vous infligent des dégats,
+sautez par dessus afin de ne pas tomber dedans.
+Vous pouvez voir votre vie en haut à droite de votre écran.
+.Vous pouvez lancer des attaques de base
+en faisant un clic gauche. Ces attaques partiront
+vers l'emplacement de votre souris et seront soumises
+à la gravité.
+.Pour accéder au niveau suivant, tout les brasiers doivent
+être allumés. Vous pouvez voir les brasiers allumés ou
+éteints en bas à gauche de votre écran.
+Pour allumer un brasier lancez une attaque dessus.
+Exceptionnellement, vous n'avez pas à allumer tout les brasiers 
+de ce niveau, la porte menant au niveau suivant est déja dévérouillée.
+.Les monstres vont tenter par divers moyen de vous attaquer,
+vous pouvez les esquiver en sautant par dessus, ou simplement
+les tuer en les attaquant.
+.Vous pouvez marcher sur ce bumper, cela vous propulsera
+dans les airs, plus haut que si vous sautiez.
+.Pour passer au niveau suivant, il faut dévérouiller, trouver
+et passer par la porte du niveau actuel. Comme promis, la porte
+de ce niveau est déjà ouverte.

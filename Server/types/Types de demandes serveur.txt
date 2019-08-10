@@ -1,0 +1,6 @@
+0 = Enregistrer un compte
+1 = Verifier une connection a un compte
+2 = Demande d'enregistrement d'un niveau
+3 = Demande d'obtention de la liste des niveaux
+4 = Demande d'obtention d'un niveau
+5 = Demande de suppression d'un niveau
